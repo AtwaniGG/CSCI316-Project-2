@@ -1,0 +1,17 @@
+# Model weights (too large for GitHub)
+*.safetensors
+*.h5
+*.pb
+NLP/Arabizi Tweets/models/tensorflow/
+NLP/Arabizi Tweets/models/tesno/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Colab / Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
