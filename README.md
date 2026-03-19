@@ -34,7 +34,7 @@ The key research question: *Can knowledge from Arabic-script sentiment data tran
 ## Key Findings
 
 - **Cross-script transfer gap**: Transfer from MSA Arabic to Arabizi showed minimal improvement over the no-transfer baseline, likely due to orthographic divergence (Arabic script vs Latin Arabizi)
-- **LoRA robustness**: LoRA achieved lower DTGS variance (0.001341) vs Full FT (0.004239), suggesting frozen base weights better preserve cross-lingual representations
+- **LoRA robustness**: LoRA achieved lower DTGS variance (0.001341) with only 0.17% of the parameters from mBERT vs Full FT (0.004239), suggesting frozen base weights better preserve cross-lingual representations
 - **DTGS metric**: The custom Dialectal Transfer Gap Score measures F1 variance across Arabizi intensity quartiles — lower variance indicates more robust cross-dialect transfer
 
 ## Project Structure
